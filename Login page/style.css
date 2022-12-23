@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+
+.btn1{
+	border:none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: green;
+}
+.btn2:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+.btn2{
+    border:none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.login-wrapper .inner{
+    max-width: auto;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+    display: inline-block; 
+}
+.link:hover{
+    text-decoration: underline;
+}
+.bottom{
+    bottom: 20px;
+    position: absolute;
+    right: 0px;
+    left: 380px;
+    text-align: center;
+}
